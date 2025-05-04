@@ -1,14 +1,11 @@
 import { useState } from "react";
-import Accordion from "./Components/Accordion/Accordion"
-import ColorGenerator from "./Components/ColorGenerator/ColorGenerator";
-// import "./Components/index"
-
+import {Accordion,ColorGenerator} from "./Components/index"
 
 function App() {
   return (
     <>
-      {/* <Accordion/> */}
-      <ColorGenerator/>
+      <ColorGenerator />
+      <Accordion/> 
     </>
   );
 }

@@ -36,7 +36,7 @@ function Accordion() {
   }
   return (
     <>
-      <div>
+      <div className="w-full h-screen">
       <h1 className="text-center text-white text-3xl my-5">Accordion Components</h1>
       <ControlBtn option={option} setOption={setOption}/>
         <div className="grid place-content-center bg-blue-100 rounded-3xl w-150 mx-auto">
